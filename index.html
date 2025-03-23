@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JDM</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="bg-gray-100"> 
+
+    <!-- Navigation Bar Starts -->
+    <nav class="sticky top-0 z-10 bg-blue-950 shadow-md p-4">
+        <div class="container flex justify-between items-center mx-auto "> 
+            <h1 class="text-white font-bold text-lg md:text-xl lg:text-2xl">JDM Cars</h1>
+            <div class="flex gap-4 items-center">
+                <div class="flex items-center">
+                    <div class="relative">
+                        <button class="absolute right-0 top-0 bg-transparent text-gray-600 p-3">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                stroke="currentColor" class="h-5">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M21 21l-4.35-4.35a9 9 0 1 0-1.4 1.4L21 21z" />
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M11 19a8 8 0 1 1 8-8" />
+                            </svg>
+                        </button>
+                        <input type="text" placeholder="Search for cars" class="border border-gray-300 pl-10 pr-4 py-2 rounded-md focus:outline-none text-sm lg:text-lg">
+                    </div>
+                </div>
+
+                <div class="hidden md:flex space-x-4">
+                    <a href="#" class="text-white hover:text-gray-400">Home</a>
+                    <a href="#" class="text-white hover:text-gray-400">About</a>
+                    <a href="#" class="text-white hover:text-gray-400">Contact Us</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Section -->
+    <section class="relative md:h-screen">
+        <video src="assets/porsche.mp4" loop autoplay muted type="video/mp4" class="object-cover object-center w-full h-full">Your Browser doesn't support video element</video>
+        <div class="absolute inset-0 bg-black opacity-50"></div>
+        <div class="absolute inset-0 flex flex-col items-center justify-center text-white">
+            <h1 class="text-4xl md:text-6xl lg:text-7xl font-bold mb-4">Japanese Domestic Market</h1>
+            <p class="text-base md:text-lg lg:text-xl mb-8">Toyota Supra, Nissan GTR and Honda are the japan's Big3 of JDM</p>
+            <a href="#" class="bg-blue-500 text-white px-6 py-3 rounded-full hover:bg-blue-700">Get Started</a>
+        </div>
+    </section>
+
+    <!-- Why Choose Us -->
+    <section class="relative mt-10 bg-gray-100 md:mt-20">
+        <div class="relative md:h-96">
+            <img src="assets/jdm1.jpg" alt="Why Choose Us" type="image/jpg" class="object-cover object-center w-full h-full">
+            <div class="absolute inset-0 bg-black opacity-50"></div>
+            <div class="absolute inset-0 flex flex-col items-center justify-center text-white">
+                <h2 class="text-4xl md:text-6xl lg:text-7xl font-bold mb-4">Why Choose JDM?</h2>
+            </div>
+        </div>
+
+        <!-- Cards Section -->
+        <div class="container mx-auto mt-8 flex flex-wrap justify-center">
+            <!-- Card 1 -->
+            <div class="w-full md:w-1/3 p-4">
+                <div class="bg-white border-r-4 border-b-4 border-gray-800 hover:shadow-2xl rounded-lg p-6">
+                    <h3 class="text-xl font-bold mt-2">Expert Trainers</h3>
+                    <p class="text-gray-700">Our experienced trainers are dedicated to helping you achieve your fitness goals.</p>
+                </div>
+            </div>
+            <!-- Card 2 -->
+            <div class="w-full md:w-1/3 p-4">
+                <div class="bg-white border-r-4 border-b-4 border-gray-800 hover:shadow-2xl rounded-lg p-6">
+                    <h3 class="text-xl font-bold mt-2">State-of-the-Art Facilities</h3>
+                    <p class="text-gray-700">Enjoy top-notch facilities equipped with the latest fitness technology.</p>
+                </div>
+            </div>
+            <!-- Card 3 -->
+            <div class="w-full md:w-1/3 p-4">
+                <div class="bg-white border-r-4 border-b-4 border-gray-800 hover:shadow-2xl rounded-lg p-6">
+                    <h3 class="text-xl font-bold mt-2">Community Support</h3>
+                    <p class="text-gray-700">Join a supportive community that motivates and encourages each other.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- The Big3 -->
+    <section class="bg-gray-100 py-10 md:py-16 mt-10 md:mt-10">
+        <div class="container mx-auto">
+            <h2 class="text-4xl font-bold md:text-6xl lg:text-7xl mb-14 text-center">The Japan's Big3</h2>
+            <div class="flex flex-wrap justify-center">
+                <div class="w-full md:w-1/3 p-4">
+                    <div class="relative overflow-hidden rounded-md">
+                        <img src="assets/supra.jpg" alt="Toyota" class="object-cover object-top w-full h-64">
+                        <div class="absolute inset-0 flex items-center justify-center bg-black opacity-0 hover:opacity-50 transition duration-300 ">
+                            <p class="text-white text-lg font-bold">Toyota Supra</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="w-full md:w-1/3 p-4">
+                    <div class="relative overflow-hidden rounded-md">
+                        <img src="assets/nissan.jpg" alt="Nissan" class="object-cover object-top w-full h-64">
+                        <div class="absolute inset-0 flex items-center justify-center bg-black opacity-0 hover:opacity-50 transition duration-300 ">
+                            <p class="text-white text-lg font-bold">Nissan GT-R</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="w-full md:w-1/3 p-4">
+                    <div class="relative overflow-hidden rounded-md">
+                        <img src="assets/honda.jpg" alt="Honda" class="object-cover object-top w-full h-64">
+                        <div class="absolute inset-0 flex items-center justify-center bg-black opacity-0 hover:opacity-50 transition duration-300 ">
+                            <p class="text-white text-lg font-bold">Honda Civic Type-R</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="bg-gray-800 text-white p-8 mt-10 md:mt-15">
+        <div class="container mx-auto flex flex-col md:flex-row justify-around">
+            <div class="w-full md:w-1/3 mb-6 md:mb-0">
+                <h4 class="text-xl font-bold mb-4">Created By</h4>
+                <P><Strong>Charith Kumar Tellakula</Strong></P>
+                <P><Strong>Developer</Strong></P>
+            </div>
+            <div  class="w-full md:w-1/3 mb-6 md:mb-0">
+                <h4 class="text-xl font-bold mb-4">Contact Us</h4>
+                <P><Strong>Phone:</Strong> +91 7386935682</P>
+                <P><Strong>Email:</Strong> jdmcars66@gmail.com</P>
+            </div>
+            <div  class="w-full md:w-1/3 mb-6 md:mb-0">
+                <h4 class="text-xl font-bold mb-4">Location</h4>
+                <P>Tokyo, Japan</P>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
